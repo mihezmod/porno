@@ -1,7 +1,5 @@
-import func
+import random
 
-result = "tri"
-odin = 1
-dva = 2
+list = [1, 2, 3, 4, 5]
 
-print(f"{func.add_numbers(odin, dva)} {result}")
+print(random.choice(list))
